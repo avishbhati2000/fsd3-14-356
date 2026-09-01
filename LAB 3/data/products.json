@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "brand": "Samsung",
+    "model": "Galaxy S25",
+    "price": 79999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.2-inch AMOLED",
+    "camera": "50MP",
+    "battery": "4000mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 2,
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "price": 79900,
+    "ram": "8GB",
+    "storage": "128GB",
+    "display": "6.1-inch OLED",
+    "camera": "48MP",
+    "battery": "3561mAh",
+    "os": "iOS 18"
+  },
+  {
+    "id": 3,
+    "brand": "OnePlus",
+    "model": "OnePlus 13",
+    "price": 69999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.82-inch AMOLED",
+    "camera": "50MP",
+    "battery": "6000mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 4,
+    "brand": "Google",
+    "model": "Pixel 9",
+    "price": 79999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.3-inch OLED",
+    "camera": "50MP",
+    "battery": "4700mAh",
+    "os": "Android 14"
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15",
+    "price": 64999,
+    "ram": "12GB",
+    "storage": "512GB",
+    "display": "6.36-inch AMOLED",
+    "camera": "50MP",
+    "battery": "5240mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 6,
+    "brand": "Nothing",
+    "model": "Nothing Phone 3",
+    "price": 49999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.7-inch AMOLED",
+    "camera": "50MP",
+    "battery": "5150mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 7,
+    "brand": "Motorola",
+    "model": "Edge 60 Pro",
+    "price": 29999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.7-inch pOLED",
+    "camera": "50MP",
+    "battery": "6000mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 8,
+    "brand": "Realme",
+    "model": "GT 7",
+    "price": 39999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.78-inch AMOLED",
+    "camera": "50MP",
+    "battery": "7000mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 9,
+    "brand": "Vivo",
+    "model": "Vivo X200",
+    "price": 65999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.67-inch AMOLED",
+    "camera": "50MP",
+    "battery": "5800mAh",
+    "os": "Android 15"
+  },
+  {
+    "id": 10,
+    "brand": "OPPO",
+    "model": "Find X8",
+    "price": 69999,
+    "ram": "12GB",
+    "storage": "256GB",
+    "display": "6.59-inch AMOLED",
+    "camera": "50MP",
+    "battery": "5630mAh",
+    "os": "Android 15"
+  }
+]
