@@ -28,3 +28,28 @@
 - text/json
 - text/css
 - text/js
+## Server can send data
+1. html content
+2. html files
+3. json data
+4. plain text
+5. css
+6. jss
+7. file
+
+## Server can set Header to send data
+1. res.writeHeader()
+2. res.setHeader
+
+## Server can set status code: 
+
+1. res.statusCode()
+2. res.writeHeader()
+
+## request methods
+
+1. get
+2. post
+3. put/patch
+4. delete
+5. Routes
