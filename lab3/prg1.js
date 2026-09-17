@@ -20,7 +20,6 @@ const server = http.createServer((req,res) => {
 
 
 
-
 const PORT = 3690;
 server.listen(PORT,()=>{
     console.log("Hi the server is running");
