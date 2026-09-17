@@ -68,6 +68,7 @@ const server = http.createServer(async (req, res) => {
 
     return sendJson(res, 200, team, "Message", "Team Found");
   }
+  
 else if (pathname.startsWith("/api/v1/teams/") && method == "PUT") {
   const id = Number(pathname.split("/").pop());
   const oldteam = getTeamById(id);
