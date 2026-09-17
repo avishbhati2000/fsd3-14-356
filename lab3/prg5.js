@@ -12,4 +12,5 @@ const server = http.createServer((req,res)=>{
    res.end(JSON.stringify(product));
 })
 
+
 server.listen(3000,()=> console.log("Server running"));
