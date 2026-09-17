@@ -5,4 +5,6 @@ import {mkdir, rm} from "fs/promises";
 
 // await mkdir("docs/resume/data" , {recursive: true});
 
+
+
 await rm('docs' , {recursive:true});
