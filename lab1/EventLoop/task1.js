@@ -22,8 +22,6 @@ function main() {
 }
 main();
 
-
-
 //Javascript - Synchronus and single threaded form.
 //Limitation - Can't perform multiple tasks simultaneously.
 //In asynchronus we use event loop to manage the call stack.
