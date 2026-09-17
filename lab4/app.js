@@ -56,6 +56,7 @@ const server = http.createServer(async (req, res) => {
     erro: `Team with id: ${id} not found`,});
     return sendJson(res, 200, team, "Message", "Team Found");
   }
+  
    else if(pathname.startsWith("/api/v1/teams/")&& method === "DELETE"){
     const id = Number(pathname.split("/").pop());
     const team = getTeamById(id);
