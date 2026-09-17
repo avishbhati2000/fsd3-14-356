@@ -9,8 +9,16 @@ app.get('/about',(req,res)=>{
     res.send("WE are FSD Developer")
 })
 
-app.get('/login',(req,res)=>{
+app.post('/login',(req,res)=>{
     res.send({msg:'user login'})
+})
+
+app.put('/user/update/1',(req,res)=>{
+    res.send({msg:'user update'})
+})
+
+app.delete('/users/1',(req,res)=>{
+    res.send({msg: 'remove user 1'})
 })
 
 app.use((req,res)=>{
