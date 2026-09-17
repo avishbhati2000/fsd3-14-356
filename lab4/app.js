@@ -68,7 +68,7 @@ const server = http.createServer(async (req, res) => {
 
     return sendJson(res, 200, team, "Message", "Team Found");
   }
-  
+
 else if (pathname.startsWith("/api/v1/teams/") && method == "PUT") {
   const id = Number(pathname.split("/").pop());
   const oldteam = getTeamById(id);
@@ -84,7 +84,8 @@ else if (pathname.startsWith("/api/v1/teams/") && method == "PUT") {
         error: "Team Name, Team Leader, or Members not defined",
       });
 
-    const updateTeam = updateTeamById(id,{tname, tl, members});
+    
+      const updateTeam = updateTeamById(id,{tname, tl, members});
     return sendJson(res, 200, updateTeam, "Message", "Team updated successfully");
   } 
   
