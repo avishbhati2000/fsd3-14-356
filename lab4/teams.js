@@ -15,6 +15,7 @@ let teams = [
 
 let nextId = 3;
 
+
 export const getAllTeams = ()=> teams;
 
 export const getTeamById = (id)=> teams.find((team)=> team.id === id);
