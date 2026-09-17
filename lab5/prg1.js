@@ -5,13 +5,14 @@ import {fileURLToPath} from "node:url";
 const PORT = 3333;
 const app = express();
 
-const filename = fileURLToPath(import.meta.url);
-const dirname = path.dirname(filename);
+const filename = fileURLToPath(import.meta.url); // reference of root folder
+const dirname = path.dirname(filename);           // store the address of project folder
 
 
 
 app.get("/",(req,res)=>{
     res.sendFile(path.join(dirname,"public","index.html"));
+    // projectFolder/public/index.html
 });
 
 app.get("/about",(req,res)=>{
