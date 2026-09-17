@@ -5,6 +5,7 @@ import { writeFile , readFile , appendFile} from "fs/promises";
 // const data = await readFile("stud.txt",'utf-8');
 // console.log(`file contents : ${data}`);
 
+
 const addContent = async (fname, content) => {
     await writeFile (fname,content);
     console.log(`${content} written in ${fname}`);
