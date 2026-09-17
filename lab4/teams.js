@@ -25,6 +25,7 @@ export const addTeam = (newTeam) => {
     return team;
 }
 
+
 export const updateTeamById = (id, updateTeam)=>{
     const team = getTeamById(id);
     if(!team){
