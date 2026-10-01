@@ -17,3 +17,25 @@
    d. select variant as javascript from arrow key
    e. select esList for linting from arrow key
    f. select install and start the frontend
+
+8. Object destructure.
+- const qtystyle = {
+  display: "inline-block",
+  fontSize: "0.85rem",
+  fontWeight: "600",
+  color: "#a78bfa",
+  background: "rgba(167, 139, 250, 0.1)",
+  padding: "7px 14px",
+  marginTop: "10px",
+  borderRadius: "999px",
+  border: "1px solid rgba(167, 139, 250, 0.25)",
+  letterSpacing: "0.4px",
+};
+
+- #### Does not depend on order, if property is not available then it initalizes with null
+- Any components include styles:
+1. External CSS : Create class in index.css and use in component.
+2. Internal CSS : Create property as object, then apply with style attribute and pass the object : 
+         <h3 style = {qtystyle} >Quantity: {quantity}</h3>
+
+3. Inline CSS : In this method we use two curly brackets withs style attribute, all the CSS property must be single word for example: text-align becomes textAlign(Camel Case).

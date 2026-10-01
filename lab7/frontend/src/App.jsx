@@ -16,16 +16,21 @@ const b2 = {
   rating: 5.0,
 };
 
-function Book(props) {
-  const { rating, quantity, price, bname, picUrl } = props.book;
+// function Book(props) {
+//   const { rating, quantity, price, bname, picUrl } = props.book;
 
-  const qtystyle = {
-    fontSize : "1rem",
-    color : "blue",
-    textAlign : "center",
-    backgroundColor:"yellow",
-    padding : "10px",
-  }
+//  const qtystyle = {
+//   display: "inline-block",
+//   fontSize: "0.85rem",
+//   fontWeight: "600",
+//   color: "#a78bfa",
+//   background: "rgba(167, 139, 250, 0.1)",
+//   padding: "7px 14px",
+//   marginTop: "10px",
+//   borderRadius: "999px",
+//   border: "1px solid rgba(167, 139, 250, 0.25)",
+//   letterSpacing: "0.4px",
+// };
 
   return (
     <div>
