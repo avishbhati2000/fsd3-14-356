@@ -1,43 +1,50 @@
-const b1={
-  picUrl: "https://imgs.search.brave.com/48J4YveDPnEPuYkeKoBtCjADHsGGqKA0zomviVEKB-o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/aXMtaXMtZ3VuYWhv/bi1rYS1kZXZ0YS1p/cy1vdmVycmF0ZWQt/aS1hbS1hbG1vc3Qt/YXQtdjAta2RoYnhm/NTlnYWdkMS5qcGVn/P3dpZHRoPTY0MCZj/cm9wPXNtYXJ0JmF1/dG89d2VicCZzPWNk/ZjliMWZjNGUxNzBh/NTA0ZTA3ZjM5Mjc1/ODIwZjk0NmJmNDlj/ZTM",
-  bname:"React Design Pattern",
+const b1 = {
+  picUrl:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9r8LCkI511HTcKPRyHxGLfr_8aVwurDWuenlnfqk-E2Rukgsc_ZjHyAs&s=10",
+  bname: "React Design Pattern",
   price: 1199,
-  quantity:10,
-  rating:5.0,
-}
-const b2={
-  picUrl: "https://imgs.search.brave.com/ZHEfhXAnnLxgvAX-FR7ozf8zpVsQ_ICtT0g23MSPKG8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFkd3F6MUJVM0wu/anBn",
-  bname:"React Design Pattern",
-  price: 1199,
-  quantity:10,
-  rating:5.0,
-}
+  quantity: 10,
+  rating: 5.0,
+};
 
+const b2 = {
+  picUrl:
+    "https://dryuc24b85zbr.cloudfront.net/tes/resources/6441170/image?width=500&height=500&version=1474643904786",
+  bname: "React Design Pattern",
+  price: 1199,
+  quantity: 10,
+  rating: 5.0,
+};
 
 function Book(props) {
-  const{ rating, quantity, price, bname, picUrl } = props.book;
+  const { rating, quantity, price, bname, picUrl } = props.book;
+
   return (
     <div>
-      <img
-      src={picUrl}
-      alt={bname}
-      />
-    <h1>{bname}</h1>
-    <h2>Price: {price}</h2>
-    <h3>Quantity: {quantity}</h3>
-    <h4>Rating: {rating}</h4>
+      <img src={picUrl} alt={bname} />
+
+      <h1>{bname}</h1>
+
+      <h2>Price: ₹{price}</h2>
+
+      <h3>Quantity: {quantity}</h3>
+
+      <h4>⭐ {rating}</h4>
     </div>
-  )
+  );
 }
 
-export default function App(){
+export default function App() {
   return (
-  <>
-  <Book book={b1} />
-  <h1>Hello React</h1>
-  <Book book={b2} />
-  <Book book={b1} />
-  <Book book={b2} />
-  </>
-  )
+    <>
+      <h1 className="page-title">React Book Store</h1>
+
+      <div className="container">
+        <Book book={b1} />
+        <Book book={b2} />
+        <Book book={b1} />
+        <Book book={b2} />
+      </div>
+    </>
+  );
 }
