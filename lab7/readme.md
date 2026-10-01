@@ -39,3 +39,6 @@
          <h3 style = {qtystyle} >Quantity: {quantity}</h3>
 
 3. Inline CSS : In this method we use two curly brackets withs style attribute, all the CSS property must be single word for example: text-align becomes textAlign(Camel Case).
+
+- rafce - arrow function.
+- rfce - simple function.
