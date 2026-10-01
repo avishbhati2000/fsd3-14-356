@@ -19,6 +19,14 @@ const b2 = {
 function Book(props) {
   const { rating, quantity, price, bname, picUrl } = props.book;
 
+  const qtystyle = {
+    fontSize : "1rem",
+    color : "blue",
+    textAlign : "center",
+    backgroundColor:"yellow",
+    padding : "10px",
+  }
+
   return (
     <div>
       <img src={picUrl} alt={bname} />
@@ -27,9 +35,11 @@ function Book(props) {
 
       <h2>Price: ₹{price}</h2>
 
-      <h3>Quantity: {quantity}</h3>
+      <h3 style = {qtystyle} >Quantity: {quantity}</h3>
 
-      <h4>⭐ {rating}</h4>
+      <h4 style = {{color : "red", textAlign:"center"}}>⭐ {rating}</h4>
+
+      <button className="buy-btn">Buy Now</button>
     </div>
   );
 }
