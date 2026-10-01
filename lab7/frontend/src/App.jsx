@@ -1,4 +1,5 @@
 import Book from "./components/Book";
+import Pen from "./components/Pen";
 
 const b1 = {
   picUrl:
@@ -18,6 +19,27 @@ const b2 = {
   rating: 5.0,
 };
 
+const p1 = {
+  picUrl:
+    "https://m.media-amazon.com/images/I/71xh6eJHcbL._AC_UL480_FMwebp_QL65_.jpg",
+  bname: "React Design Pattern",
+  price: 1199,
+  quantity: 10,
+  rating: 5.0,
+};
+
+const p2 = {
+  picUrl:
+    "https://m.media-amazon.com/images/I/61+GYlpqs0L._AC_UL480_FMwebp_QL65_.jpg",
+  bname: "React Design Pattern",
+  price: 1199,
+  quantity: 10,
+  rating: 5.0,
+};
+
+
+
+
 export default function App() {
   return (
     <>
@@ -28,6 +50,8 @@ export default function App() {
         <Book book={b2} />
         <Book book={b1} />
         <Book book={b2} />
+        <Pen pen = {p1} />
+        <Pen pen = {p2} />
       </div>
     </>
   );
