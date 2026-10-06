@@ -3,6 +3,7 @@ import Fruit from "./components/Fruit";
 import Pen from "./components/Pen";
 import { Books } from "./data/Books";
 import { Pens } from "./data/Pens";
+import Event from "./components/Event";
 
 
 
@@ -23,6 +24,7 @@ export default function App() {
         <Pen pen = {Pens[0]} />
         <Pen pen = {Pens[1]} />
         <Fruit/> 
+        <Event/>
       </div>
     </>
   );

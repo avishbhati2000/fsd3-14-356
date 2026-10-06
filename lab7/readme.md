@@ -103,3 +103,4 @@ rafce - arrow
 rfce - function
 
 - ### App.jsx should have minimum code.
+- By defualt button in html is submit button.
