@@ -1,31 +1,29 @@
 import Book from "./components/Book";
 import Fruit from "./components/Fruit";
 import Pen from "./components/Pen";
-import { Books } from "./data/Books";
-import { Pens } from "./data/Pens";
+import { books } from "./data/Books";
+import { pens } from "./data/Pens";
+import fruit from "./components/Fruit";
 import Event from "./components/Event";
 
+const MyButton = ()=>{
+  let count = 1;
+  
+  const handleSubmit = ()=>{
+    alert("button clicked", count);
+    count++;
+  };
+  return(
+    <button className="bg-black text-white text-xl rounded-md m-4
+     px-4 py-2 onClick={handleSubmit}">
+    Submit</button>
+  )
+}
 
-
-
-
-
-
-export default function App() {
+export default function App(){
   return (
-    <>
-      <h1 className="page-title">React Book Store</h1>
-
-      <div className="container">
-        <Book book={Books[0]} />
-        <Book book={Books[1]} />
-        <Book book={Books[0]} />
-        <Book book={Books[1]} />
-        <Pen pen = {Pens[0]} />
-        <Pen pen = {Pens[1]} />
-        <Fruit/> 
-        <Event/>
-      </div>
-    </>
+  <>
+  <MyButton/>
+  </>
   );
 }

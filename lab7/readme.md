@@ -104,3 +104,11 @@ rfce - function
 
 - ### App.jsx should have minimum code.
 - By defualt button in html is submit button.
+
+## Add tailwind to exisitng react project.
+1. Open terminal and go to project frontend folder.
+2. Install tailwind by `npm install tailwindcss @tailwindcss/vite`
+3. Open vite.config.js
+4. Add `import tailwindcss from "@tailwindcss/vite";
+7. open src/index.css and remove all contents, then add below line:
+            `@import "tailwindcss";`
